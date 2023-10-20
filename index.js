@@ -15,6 +15,9 @@
 
 
 
+
+
+
 // const obj = {
 //     name: 'Mia',
 // }
@@ -31,6 +34,8 @@
 // obj.city = 'Balti'
 
 // console.log(obj)
+
+
 
 
 
@@ -57,6 +62,8 @@
 
 
 
+
+
 // const obj = {
 //     name: 'Mia',
 // }
@@ -70,7 +77,6 @@
 
 // Object.freeze(obj)
 
-
 // obj.city = 'Balti'
 
 // obj.name = "Irina"
@@ -81,7 +87,6 @@
 
 
 // const arr = [2, 7, 5, 3, 1, 9, 4, 8];
-
 
 // console.log(arr.sort((a, b) => a - b))
 // console.log(arr.sort((a, b) => b - a))
@@ -130,7 +135,9 @@
 //     return 0
 // }))
 
-// ghfftyf
+
+
+
 
 
 // const obj = {
@@ -150,14 +157,11 @@
 
 
 
-const array = [5, 10, 15, 20];
+// const array = [5, 10, 15, 20];
 
-for (const value of array) {
-    console.log(value);
-}
-
-
-
+// for (const value of array) {
+//     console.log(value);
+// }
 
 
 
@@ -168,6 +172,9 @@ for (const value of array) {
 // for (let item of arr) {
 //     console.log(item)
 // }
+
+
+
 
 
 // const obj = {
@@ -220,3 +227,6 @@ for (const value of array) {
 // console.log('obj1', obj1)
 // obj.c.d.greet()
 // obj1.c.d.greet()
+
+
+.
