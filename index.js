@@ -86,10 +86,16 @@
 
 
 
-// const arr = [2, 7, 5, 3, 1, 9, 4, 8];
+function sortareaArrayCrescator(arr) {
+    return arr.sort((a, b) => a-b);
+}
 
-// console.log(arr.sort((a, b) => a - b))
-// console.log(arr.sort((a, b) => b - a))
+const arr = [2, 7, 5, 3, 1, 9, 4, 8];
+const arrSortatCrescator = sortareaArrayCrescator(arr);
+
+console.log('Array sortat crescator:', arrSortatCrescator)
+
+
 
 
 
@@ -97,9 +103,9 @@
 
 // const nume = ['Ion', 'Maria', 'Ana', 'Svetlana', 'Irina'];
 
-// const numeSortateAZ = nume.slice().sort();
+// const numeSortateAZ = [...nume].sort();
 
-// const numeSortateZA = nume.slice().sort((a, b) => b.localeCompare(a));
+// const numeSortateZA = [...nume].sort((a, b) => b.localeCompare(a));
 
 // console.log('sortarea de la A la Z', numeSortateAZ);
 // console.log('sortarea de la Z la A', numeSortateZA);
@@ -229,4 +235,3 @@
 // obj1.c.d.greet()
 
 
-.
